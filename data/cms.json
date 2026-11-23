@@ -1,0 +1,157 @@
+{
+  "settings": {
+    "address_en": "32 Park Street, Opposite to Empire, Erbil",
+    "address_ku": "شەقامی ٣٢ پارک، بەرامبەر ئێمپایەر، هەولێر",
+    "phone1": "+964 750 699 5950",
+    "phone2": "+964 750 277 3575",
+    "email": "info@multibusiness.krd",
+    "youtubeUrl": "https://www.youtube.com/embed/1IyXhEO8Oo0",
+    "instagram": "https://www.instagram.com/multi.business.consultancy/",
+    "whatsapp": "https://wa.me/9647506995950",
+    "facebook": "https://www.facebook.com/Multi.Business.Consultancy/"
+  },
+  "slides": [
+    {
+      "id": "slide-1",
+      "title_en": "Multi Business",
+      "title_ku": "مەڵتی بزنس (Multi Business)",
+      "subtitle_en": "For Training and Consulting",
+      "subtitle_ku": "بۆ ڕاهێنان و ڕاوێژکاری",
+      "btn_en": "Contact Us",
+      "btn_ku": "پەیوەندیمان پێوە بکە",
+      "link": "contact.html",
+      "image": "assets/images/slide-handshake.jpg"
+    },
+    {
+      "id": "slide-2",
+      "title_en": "Brian Tracy",
+      "title_ku": "بڕایان ترەیسی (Brian Tracy)",
+      "subtitle_en": "Meet our programs",
+      "subtitle_ku": "پڕۆگرامە جیهانییەکانمان بناسە",
+      "btn_en": "Programs",
+      "btn_ku": "پڕۆگرامەکان",
+      "link": "brian-tracy.html#programs",
+      "image": "assets/images/slide-business-bg.jpg"
+    },
+    {
+      "id": "slide-3",
+      "title_en": "Meet our Services",
+      "title_ku": "خزمەتگوزارییەکانمان بناسە",
+      "subtitle_en": "Comprehensive Training & Strategic Consulting in Erbil",
+      "subtitle_ku": "ڕاهێنانی گشتگیر و ڕاوێژکاری ستراتیژی لە هەولێر",
+      "btn_en": "Read More",
+      "btn_ku": "زیاتر بخوێنەوە",
+      "link": "services.html",
+      "image": "assets/images/slide-discussion.jpg"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1",
+      "title_en": "Sales Private Training",
+      "title_ku": "ڕاهێنانی تایبەتی فرۆشتن",
+      "desc_en": "Holding a private sales training for a local company.",
+      "desc_ku": "ئەنجامدانی خولی ڕاهێنانی تایبەتی فرۆشتن بۆ کۆمپانیایەکی ناوخۆیی.",
+      "category_en": "Corporate Training",
+      "category_ku": "ڕاهێنانی کۆمپانیاکان",
+      "date": "2024-08",
+      "image": "assets/images/private-training.jpg"
+    },
+    {
+      "id": "act-2",
+      "title_en": "Business Package Training",
+      "title_ku": "پاکێجی ڕاهێنانی بازرگانی",
+      "desc_en": "24 hours business training for a group of business owners in Erbil.",
+      "desc_ku": "٢٤ کاتژمێر ڕاهێنانی بازرگانی بۆ گروپێک لە خاوەنکارانی شاری هەولێر.",
+      "category_en": "Business Package",
+      "category_ku": "پاکێجی بازرگانی",
+      "date": "2024-08",
+      "image": "assets/images/business-package.jpg"
+    },
+    {
+      "id": "act-3",
+      "title_en": "HRM Training",
+      "title_ku": "ڕاهێنانی سەرچاوە مرۆییەکان (HRM)",
+      "desc_en": "3 days HRM training for a group of administrative staff and human resources employees.",
+      "desc_ku": "٣ ڕۆژ ڕاهێنانی بەڕێوەبردنی سەرچاوە مرۆییەکان بۆ ستافی کارگێڕی و فەرمانبەرانی HR.",
+      "category_en": "HRM Workshop",
+      "category_ku": "سەرچاوە مرۆییەکان",
+      "date": "2024-08",
+      "image": "assets/images/hrm-training.png"
+    }
+  ],
+  "programs": [
+    {
+      "id": "bts-1",
+      "category": "bts",
+      "title_en": "EXECUTIVE DEVELOPMENT",
+      "title_ku": "پەرەپێدانی بەڕێوەبەران (Executive Development)",
+      "desc_en": "Master the skills you need to move into the top 10% of achievers in your field.",
+      "desc_ku": "فێربوونی ئەو کارامەییانەی پێویستن بۆ چوونە ناو ١٠٪ی سەرکەوتووترین کەسەکان لە بوارەکەتدا.",
+      "image": "assets/images/exec-dev.jpg"
+    },
+    {
+      "id": "bts-2",
+      "category": "bts",
+      "title_en": "PERFORM AT YOUR BEST",
+      "title_ku": "باشترین ئاستی خۆت پێشکەش بکە",
+      "desc_en": "Why are some people more successful than others? Find out with our most popular program.",
+      "desc_ku": "بۆچی هەندێک کەس لەوانی تر سەرکەوتووترن؟ لە ڕێگەی بەناوبانگترین پڕۆگراممانەوە بیدۆزەرەوە.",
+      "image": "assets/images/perform-best.jpg"
+    },
+    {
+      "id": "bts-3",
+      "category": "bts",
+      "title_en": "SUPERIOR SELLING SKILLS",
+      "title_ku": "کارامەییە باڵاکانی فرۆشتن",
+      "desc_en": "A company’s survival is dependent on sales. Create a winning sales team and lead the market.",
+      "desc_ku": "مانەوەی کۆمپانیا پەیوەستە بە فرۆشتنەوە. تیمێکی براوەی فرۆشتن دروست بکە و پێشەنگی بازاڕ بە.",
+      "image": "assets/images/superior-selling.jpg"
+    },
+    {
+      "id": "bts-4",
+      "category": "bts",
+      "title_en": "WIN RESALES AND REFERRALS",
+      "title_ku": "بەدەستهێنانی دووبارە فرۆشتنەوە و پێشنیارکردن",
+      "desc_en": "Build relationships that lead to repeat sales and long-term customers. Advance your skills.",
+      "desc_ku": "پەیوەندییەکی بەهێز دروست بکە کە ببێتە هۆی دووبارە کڕینەوە و کڕیاری درێژخایەن.",
+      "image": "assets/images/win-resales.jpg"
+    },
+    {
+      "id": "bts-5",
+      "category": "bts",
+      "title_en": "HIGH PERFORMANCE LEADERSHIP",
+      "title_ku": "سەرکردایەتی ئاست بەرز",
+      "desc_en": "Learn the ideas, strategies, and techniques used by all highly-effective managers and leaders.",
+      "desc_ku": "فێری ئەو بیرۆکە، ستراتیژی و تەکنیکانە ببە کە لەلایەن سەرکردە و بەڕێوەبەرە کاراکانەوە بەکاردەهێنرێن.",
+      "image": "assets/images/leadership.jpg"
+    },
+    {
+      "id": "bts-6",
+      "category": "bts",
+      "title_en": "MANAGE YOUR TIME",
+      "title_ku": "بەڕێوەبردنی کات",
+      "desc_en": "Understand the psychology of time management, alleviate constraints, and achieve more faster!",
+      "desc_ku": "لە دەروونناسی بەڕێوەبردنی کات تێبگە، بەربەستەکان کەم بکەرەوە و لە کاتێکی کەمتردا زیاتر بەدەست بهێنە!",
+      "image": "assets/images/manage-time.jpg"
+    },
+    {
+      "id": "bts-7",
+      "category": "bts",
+      "title_en": "FAST TRACK TO SUCCESS",
+      "title_ku": "ڕێگای خێرا بەرەو سەرکەوتن",
+      "desc_en": "Discover the ‘best of the best’ of peak performance, sales strategy, and leadership principles.",
+      "desc_ku": "باشترین بنەماکانی ئەدای بەرز، ستراتیژی فرۆشتن و سەرکردایەتی بدۆزەرەوە.",
+      "image": "assets/images/fast-track.jpg"
+    },
+    {
+      "id": "bts-8",
+      "category": "bts",
+      "title_en": "ACCELERATED PROGRAMS",
+      "title_ku": "پڕۆگرامە خێراکان (Accelerated)",
+      "desc_en": "These dynamic workshops focus on the vital essentials for managers and sales teams.",
+      "desc_ku": "ئەم وۆرکشۆپە چالاکانە تیشک دەخەنە سەر پێداویستییە گرنگەکان بۆ بەڕێوەبەران و تیمەکانی فرۆشتن.",
+      "image": "assets/images/accelerated.jpg"
+    }
+  ]
+}

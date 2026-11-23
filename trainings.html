@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trainings | Multi Business Erbil</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-contact">
+        <span class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span data-cms="address">32 Park Street, Opposite to Empire, Erbil</span>
+        </span>
+        <a href="tel:+9647506995950" class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span data-cms="phone1">+964 750 699 5950</span>
+        </a>
+        <a href="mailto:info@multibusiness.krd" class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span data-cms="email">info@multibusiness.krd</span>
+        </a>
+      </div>
+
+      <div class="topbar-right">
+        <a href="admin.html" class="admin-top-link">⚙️ <span data-i18n="nav_admin">Admin Panel</span></a>
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang="en" onclick="setLanguage('en')">EN</button>
+          <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">KU (کوردی)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo-white.png" alt="Multi Business Logo" />
+      </a>
+
+      <nav class="nav-links" id="mainNavLinks">
+        <div class="nav-item"><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></div>
+        <div class="nav-item">
+          <a href="brian-tracy.html" class="nav-link" data-i18n="nav_bts">Brian Tracy ▾</a>
+          <div class="dropdown-menu">
+            <a href="brian-tracy.html" data-i18n="nav_about_bts">About BTS</a>
+            <a href="brian-tracy.html#programs" data-i18n="nav_bts_programs">Programs</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="services.html" class="nav-link" data-i18n="nav_services">Services</a></div>
+        <div class="nav-item"><a href="trainings.html" class="nav-link active" data-i18n="nav_trainings">Trainings</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link" data-i18n="nav_about">About</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></div>
+      </nav>
+
+      <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-badge">Multi Business</span>
+      <h1 data-i18n="trainings_title">Trainings</h1>
+      <p data-i18n="trainings_sub">
+        Explore our specialized corporate training tracks and professional courses.
+      </p>
+    </div>
+  </section>
+
+  <!-- 5 Original Training Tracks -->
+  <section class="section">
+    <div class="container">
+      <div class="care-grid" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));">
+        <div class="care-card card-teal">
+          <div class="care-icon">📣</div>
+          <h3 data-i18n="tr_1">Marketing</h3>
+        </div>
+        <div class="care-card card-orange">
+          <div class="care-icon">🤝</div>
+          <h3 data-i18n="tr_2">Sales</h3>
+        </div>
+        <div class="care-card card-slate">
+          <div class="care-icon">🎧</div>
+          <h3 data-i18n="tr_3">Customer Service</h3>
+        </div>
+        <div class="care-card card-teal">
+          <div class="care-icon">💰</div>
+          <h3 data-i18n="tr_4">Finance Management</h3>
+        </div>
+        <div class="care-card card-orange">
+          <div class="care-icon">🏆</div>
+          <h3 data-i18n="tr_5">Leadership Training</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dynamic Programs & Activities -->
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Programs &amp; Courses</span>
+        <h2 class="section-title">Featured Training Programs</h2>
+      </div>
+      <div class="programs-grid" id="programsGrid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-blurbs">
+        <div class="footer-blurb-card">
+          <div class="footer-blurb-icon visit">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h4 data-i18n="footer_visit">Visit Us</h4>
+          <p data-cms="address">32 Park Street, Opposite to Empire, Erbil</p>
+        </div>
+
+        <div class="footer-blurb-card">
+          <div class="footer-blurb-icon call">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h4 data-i18n="footer_call">Call Us</h4>
+          <p><a href="tel:+9647506995950" data-cms="phone1">+964 750 699 5950</a></p>
+          <p><a href="tel:+9647502773575" data-cms="phone2">+964 750 277 3575</a></p>
+        </div>
+
+        <div class="footer-blurb-card">
+          <div class="footer-blurb-icon email">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h4 data-i18n="footer_email">Email Us</h4>
+          <p><a href="mailto:info@multibusiness.krd" data-cms="email">info@multibusiness.krd</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <h4 style="font-weight: 400; font-size: 0.95rem;" data-i18n="footer_copy">
+          © Multi Business for Training and Consultancy
+        </h4>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

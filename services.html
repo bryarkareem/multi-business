@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services &amp; Business Plans | Multi Business Erbil</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-contact">
+        <span class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span data-cms="address">32 Park Street, Opposite to Empire, Erbil</span>
+        </span>
+        <a href="tel:+9647506995950" class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span data-cms="phone1">+964 750 699 5950</span>
+        </a>
+        <a href="mailto:info@multibusiness.krd" class="topbar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span data-cms="email">info@multibusiness.krd</span>
+        </a>
+      </div>
+
+      <div class="topbar-right">
+        <a href="admin.html" class="admin-top-link">⚙️ <span data-i18n="nav_admin">Admin Panel</span></a>
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang="en" onclick="setLanguage('en')">EN</button>
+          <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">KU (کوردی)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo-white.png" alt="Multi Business Logo" />
+      </a>
+
+      <nav class="nav-links" id="mainNavLinks">
+        <div class="nav-item"><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></div>
+        <div class="nav-item">
+          <a href="brian-tracy.html" class="nav-link" data-i18n="nav_bts">Brian Tracy ▾</a>
+          <div class="dropdown-menu">
+            <a href="brian-tracy.html" data-i18n="nav_about_bts">About BTS</a>
+            <a href="brian-tracy.html#programs" data-i18n="nav_bts_programs">Programs</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="services.html" class="nav-link active" data-i18n="nav_services">Services</a></div>
+        <div class="nav-item"><a href="trainings.html" class="nav-link" data-i18n="nav_trainings">Trainings</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link" data-i18n="nav_about">About</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></div>
+      </nav>
+
+      <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-badge">Multi Business</span>
+      <h1 data-i18n="services_title">Our Services</h1>
+      <p data-i18n="services_sub">
+        At Multi Business Company, we are dedicated to empowering our clients through high-quality training and consulting services.
+      </p>
+    </div>
+  </section>
+
+  <!-- Training & Consulting Core Services -->
+  <section class="section">
+    <div class="container">
+      <div class="care-grid" style="grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));">
+        <div class="care-card card-teal" style="text-align: left;">
+          <div class="care-icon" style="margin: 0 0 1.25rem;">🎓</div>
+          <h3 data-i18n="srv_training_title">Training</h3>
+          <p data-i18n="srv_training_desc">
+            We provide comprehensive training courses tailored to various industries, with a specialization in real estate, marketing and Sales. Our programs cover property management, real estate development, investment analysis, marketing strategies, and legal frameworks.
+          </p>
+        </div>
+
+        <div class="care-card card-orange" style="text-align: left;">
+          <div class="care-icon" style="margin: 0 0 1.25rem;">📊</div>
+          <h3 data-i18n="srv_consulting_title">Consulting</h3>
+          <p data-i18n="srv_consulting_desc">
+            Our consulting services offer expert guidance and strategic support for individuals and organizations. With a focus on real estate, we provide custom solutions including strategic planning, market research, feasibility studies, investment portfolio analysis, and property acquisitions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Business Plans -->
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Plans</span>
+        <h2 class="section-title" data-i18n="plans_heading">Our Business Plans</h2>
+      </div>
+
+      <div class="care-grid">
+        <div class="care-card card-teal">
+          <div class="care-icon">01</div>
+          <h3 data-i18n="plan1_title">Plan 1: Training Programs</h3>
+          <p data-i18n="plan1_desc">
+            We develop customized training programs that cater to the specific needs of our clients. Our courses cover sales and customer service training, digital marketing strategies, brand management, and communication skills.
+          </p>
+        </div>
+
+        <div class="care-card card-orange">
+          <div class="care-icon">02</div>
+          <h3 data-i18n="plan2_title">Plan 2: Marketing Strategy Consulting</h3>
+          <p data-i18n="plan2_desc">
+            We provide strategic marketing consulting services to assist companies in developing effective marketing strategies, conducting market research, competitor analysis, and target audience profiling.
+          </p>
+        </div>
+
+        <div class="care-card card-slate">
+          <div class="care-icon">03</div>
+          <h3 data-i18n="plan3_title">Plan 3: Long-Term Partnerships</h3>
+          <p data-i18n="plan3_desc">
+            We aim to build long-term partnerships with our clients, providing continuous support, refresher training sessions, updates on industry trends, and evolving marketing strategies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-blurbs">
+        <div class="footer-blurb-card">
+          <div class="footer-blurb-icon visit">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h4 data-i18n="footer_visit">Visit Us</h4>
+          <p data-cms="address">32 Park Street, Opposite to Empire, Erbil</p>
+        </div>
+
+        <div class="footer-blurb-card">
+          <div class="footer-blurb-icon call">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h4 data-i18n="footer_call">Call Us</h4>
+          <p><a href="tel:+9647506995950" data-cms="phone1">+964 750 699 5950</a></p>
+          <p><a href="tel:+9647502773575" data-cms="phone2">+964 750 277 3575</a></p>
+        </div>
+
+        <div class="footer-blurb-card">
+          <div class="footer-blurb-icon email">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h4 data-i18n="footer_email">Email Us</h4>
+          <p><a href="mailto:info@multibusiness.krd" data-cms="email">info@multibusiness.krd</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <h4 style="font-weight: 400; font-size: 0.95rem;" data-i18n="footer_copy">
+          © Multi Business for Training and Consultancy
+        </h4>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
